@@ -11,6 +11,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 /**
+ *
  * This class belongs to the Source Code Trail documented at https://wiki.hybris.com/display/pm
  /Source+Code+Tutorial
  *
