@@ -35,6 +35,7 @@
         <property name="typeCode" value="Stadium"/>
     </bean>
     <bean id="stadiumListener" class="de.hybris.platform.cuppytrail.events.StadiumEventListener" autowire="byName"/>
+    <bean id="sendRankingJob" class="de.hybris.platform.cuppytrail.jobs.SendRankingJob" autowire="byName"/>
     <!--
     The hybris platform provides one single Spring application context for beans located at the jalo layer.
     Each extension can add beans to this context by specifying them at this configuration file.
